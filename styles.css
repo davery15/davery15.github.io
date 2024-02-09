@@ -2,6 +2,18 @@
 /* This is for my index page and contact specifically */
 /* Davery Valdez Feb 2024 */
 
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    /* Add styles for smaller screens */
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+}
 /* Reset default styles for body */
 body {
     font-family: 'Times New Roman', sans-serif;
@@ -86,7 +98,6 @@ nav a:hover {
     position: relative;
     display: inline-block;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -95,18 +106,15 @@ nav a:hover {
     border-radius: 5px;
     z-index: 1;
 }
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 .dropdown-content a {
     color: #333;
     padding: 10px;
     display: block;
     text-decoration: none;
 }
-
 ul li a:hover {
     color: #000000; 
 }
@@ -122,19 +130,26 @@ p a:hover {
     text-decoration: underline; /* Add an underline effect on hover */
 }
 
-/* Responsive Design */
-@media screen and (max-width: 600px) {
-    /* Add styles for smaller screens */
-    h1 {
-        font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.2em;
-    }
-
-}
 /* color for background */
 body {
     background-color: #bdb8b8; 
+}
+
+/* Add styles for additional images */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* column width */
+    grid-gap: 10px; /* gap between images */
+    justify-content: center;
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 1000px; /* Set a maximum width for the container */
+}
+.image-container img {
+    max-width: 90%;
+    height: auto;
+}
+
+/* Adjust the position of the third image */
+.image-container img:nth-child(3) {
+    align-self: center; /* Move the third image to the center of the container */
 }

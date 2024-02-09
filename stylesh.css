@@ -2,6 +2,19 @@
 /* This is for my hobby pages specifically */
 /* Davery Valdez Feb 2024 */
 
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    /* Add styles for smaller screens */
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+}
+
 /* Reset default styles for body */
 body {
     font-family: 'Times New Roman', sans-serif;
@@ -34,7 +47,6 @@ h1 {
     justify-content: center; /* Center images horizontally */
     margin-bottom: 20px; /* Add some spacing below the images */
 }
-
 .image-container img {
     max-width: 400px; /* Reduce the max-width of the images */
     height: auto; /* Maintain aspect ratio */
@@ -97,7 +109,6 @@ nav a:hover {
     position: relative;
     display: inline-block;
 }
-/* Style dropdown */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -106,24 +117,18 @@ nav a:hover {
     border-radius: 5px;
     z-index: 1;
 }
+
 /* hover for dropdown */
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 .dropdown-content a {
     color: #333;
     padding: 10px;
     display: block;
     text-decoration: none;
 }
-/* Responsive Design */
-@media screen and (max-width: 600px) {
-    /* Add styles for smaller screens */
-    h1 {
-        font-size: 2em;
-    }
-}
+
 /* color for background */
 body {
     background-color: #bdb8b8; 
