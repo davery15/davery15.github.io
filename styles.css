@@ -1,5 +1,5 @@
 /* styles.css */
-/* This is for my index page specifically */
+/* This is for my index page and contact specifically */
 /* Davery Valdez Feb 2024 */
 
 /* Reset default styles for body */
@@ -25,13 +25,15 @@ h1 {
     font-size: 2.5em;
     color: #6959b6;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    margin-top: 20px;
+    margin-top: 10px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin */
 }
 
 /* Image styles */
 img {
     border-radius: 50%; /* Rounded corners for circular image */
-    margin-top: 20px;
+    margin-top: 10px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,7 +41,7 @@ img {
 p {
     font-size: 18px;
     line-height: 1.5;
-    margin: 10px 0;
+    margin: 5px 0; /* Reduced margin */
 }
 
 /* Italics styles */
@@ -55,12 +57,13 @@ a {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 10px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin */
 }
 
 /* Footer styles */
 footer {
-    margin-top: 20px;
+    margin-top: 10px; /* Reduced margin */
     padding: 10px;
     background: linear-gradient(to right, #6959b6, #daa551);
     color: #fff;
@@ -77,6 +80,7 @@ nav a:hover {
     background-color: #fff;
     color: #333;
 }
+
 /* Style the dropdown */
 .dropdown {
     position: relative;
@@ -102,17 +106,35 @@ nav a:hover {
     display: block;
     text-decoration: none;
 }
+
 ul li a:hover {
-    color: #000000; /* Change to your preferred hover color */
+    color: #000000; 
 }
 
 /* Style for the phone number */
 p a:hover {
-    color: #000000; /* Change to your preferred hover color */
+    color: #000000; 
 }
 
 /* Style for the email addresses */
 .email-link:hover {
-    color: #000000; /* Change to your preferred hover color */
+    color: #000000; 
     text-decoration: underline; /* Add an underline effect on hover */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    /* Add styles for smaller screens */
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+}
+/* color for background */
+body {
+    background-color: #bdb8b8; 
 }

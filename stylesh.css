@@ -28,18 +28,19 @@ h1 {
     margin-top: 20px;
 }
 
-/* Header 2 styles */
-h2 {
-    font-size: 1.5em;
-    margin: 10px 0;
-    color: #6959b6;
+/* Image styles */
+.image-container {
+    display: flex; /* Use flexbox to make images side by side */
+    justify-content: center; /* Center images horizontally */
+    margin-bottom: 20px; /* Add some spacing below the images */
 }
 
-/* Image styles */
-img {
+.image-container img {
+    max-width: 400px; /* Reduce the max-width of the images */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Adjusted border-radius */
-    margin-top: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 5px; /* Add some spacing between images */
 }
 
 /* Paragraph styles */
@@ -91,41 +92,12 @@ nav a:hover {
     color: #333;
 }
 
-/* Style for hobby container */
-div {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-/* Style for hobby images with smaller max-width */
-img {
-    max-width: 400px; /* Adjusted max-width to make the images smaller */
-    width: 100%; /* Ensure responsiveness */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: block; /* Center the image within its container */
-    margin: 0 auto; /* Center the image horizontally */
-}
-
-/* Responsive Design */
-@media screen and (max-width: 600px) {
-    /* Add styles for smaller screens */
-    h1 {
-        font-size: 2em;
-    }
-
-    h2 {
-        font-size: 1.2em;
-    }
-
-}
-
 /* Style the dropdown */
 .dropdown {
     position: relative;
     display: inline-block;
 }
-
+/* Style dropdown */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -134,7 +106,7 @@ img {
     border-radius: 5px;
     z-index: 1;
 }
-
+/* hover for dropdown */
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -144,4 +116,15 @@ img {
     padding: 10px;
     display: block;
     text-decoration: none;
+}
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    /* Add styles for smaller screens */
+    h1 {
+        font-size: 2em;
+    }
+}
+/* color for background */
+body {
+    background-color: #bdb8b8; 
 }
