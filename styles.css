@@ -41,7 +41,7 @@ h1 {
     margin-bottom: 10px; /* Reduced margin */
 }
 
-/* Image styles */
+/* Image style for index */
 img {
     border-radius: 50%; /* Rounded corners for circular image */
     margin-top: 10px; /* Reduced margin */
@@ -53,7 +53,7 @@ img {
 p {
     font-size: 18px;
     line-height: 1.5;
-    margin: 5px 0; /* Reduced margin */
+    margin: 5px 0; 
 }
 
 /* Italics styles */
@@ -149,7 +149,16 @@ body {
     height: auto;
 }
 
-/* Adjust the position of the third image */
+/* Adjust the position of the third image in index page */
 .image-container img:nth-child(3) {
     align-self: center; /* Move the third image to the center of the container */
+}
+
+/* Modify the shape and size of the image in contact page */
+.image-container2 img {
+    width:400px;
+    border-radius: 20%; /* Rounded corners for circular image */
+    margin-top: 10px; /* Reduced margin */
+    margin-bottom: 10px; /* Reduced margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
