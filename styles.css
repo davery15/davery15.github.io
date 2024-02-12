@@ -157,3 +157,21 @@ p a:hover {
     margin-bottom: 10px; /* Reduced margin */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* dark mode button */
+.dark {
+    background-color: #333;
+    color: #fff;
+}
+#theme-toggle {
+    background-color: #6959b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#theme-toggle:hover {
+    background-color: #daa551;
+}

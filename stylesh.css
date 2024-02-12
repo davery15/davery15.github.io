@@ -128,3 +128,8 @@ nav a:hover {
     display: block;
     text-decoration: none;
 }
+/* dark mode */
+.dark {
+    background-color: #333;
+    color: #fff;
+}
