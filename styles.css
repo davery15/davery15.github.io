@@ -130,11 +130,6 @@ p a:hover {
     text-decoration: underline; /* Add an underline effect on hover */
 }
 
-/* color for background */
-body {
-    background-color: #bdb8b8; 
-}
-
 /* Add styles for additional images */
 .image-container {
     display: grid;
