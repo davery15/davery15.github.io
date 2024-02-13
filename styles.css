@@ -4,6 +4,7 @@
 
 /* Responsive Design */
 @media screen and (max-width: 600px) {
+
     /* Add styles for smaller screens */
     h1 {
         font-size: 2em;
@@ -14,6 +15,7 @@
     }
 
 }
+
 /* Reset default styles for body */
 body {
     font-family: 'Times New Roman', sans-serif;
@@ -37,15 +39,20 @@ h1 {
     font-size: 2.5em;
     color: #6959b6;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    margin-top: 10px; /* Reduced margin */
-    margin-bottom: 10px; /* Reduced margin */
+    margin-top: 10px;
+    /* Reduced margin */
+    margin-bottom: 10px;
+    /* Reduced margin */
 }
 
 /* Image style for index */
 img {
-    border-radius: 50%; /* Rounded corners for circular image */
-    margin-top: 10px; /* Reduced margin */
-    margin-bottom: 10px; /* Reduced margin */
+    border-radius: 50%;
+    /* Rounded corners for circular image */
+    margin-top: 10px;
+    /* Reduced margin */
+    margin-bottom: 10px;
+    /* Reduced margin */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -53,7 +60,7 @@ img {
 p {
     font-size: 18px;
     line-height: 1.5;
-    margin: 5px 0; 
+    margin: 5px 0;
 }
 
 /* Italics styles */
@@ -65,17 +72,20 @@ i {
 a {
     display: inline-block;
     padding: 10px 20px;
-    background-color:  #6959b6;
+    background-color: #6959b6;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 10px; /* Reduced margin */
-    margin-bottom: 10px; /* Reduced margin */
+    margin-top: 10px;
+    /* Reduced margin */
+    margin-bottom: 10px;
+    /* Reduced margin */
 }
 
 /* Footer styles */
 footer {
-    margin-top: 10px; /* Reduced margin */
+    margin-top: 10px;
+    /* Reduced margin */
     padding: 10px;
     background: linear-gradient(to right, #6959b6, #daa551);
     color: #fff;
@@ -98,6 +108,7 @@ nav a:hover {
     position: relative;
     display: inline-block;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -106,39 +117,48 @@ nav a:hover {
     border-radius: 5px;
     z-index: 1;
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .dropdown-content a {
     color: #333;
     padding: 10px;
     display: block;
     text-decoration: none;
 }
+
 ul li a:hover {
-    color: #000000; 
+    color: #000000;
 }
 
 /* Style for the phone number */
 p a:hover {
-    color: #000000; 
+    color: #000000;
 }
 
 /* Style for the email addresses */
 .email-link:hover {
-    color: #000000; 
-    text-decoration: underline; /* Add an underline effect on hover */
+    color: #000000;
+    text-decoration: underline;
+    /* Add an underline effect on hover */
 }
 
 /* Add styles for additional images */
 .image-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* column width */
-    grid-gap: 10px; /* gap between images */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* column width */
+    grid-gap: 10px;
+    /* gap between images */
     justify-content: center;
-    margin: 0 auto; /* Center the container horizontally */
-    max-width: 1000px; /* Set a maximum width for the container */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    max-width: 1000px;
+    /* Set a maximum width for the container */
 }
+
 .image-container img {
     max-width: 90%;
     height: auto;
@@ -146,32 +166,43 @@ p a:hover {
 
 /* Adjust the position of the third image in index page */
 .image-container img:nth-child(3) {
-    align-self: center; /* Move the third image to the center of the container */
+    align-self: center;
+    /* Move the third image to the center of the container */
 }
 
 /* Modify the shape and size of the image in contact page */
 .image-container2 img {
-    width:400px;
-    border-radius: 20%; /* Rounded corners for circular image */
-    margin-top: 10px; /* Reduced margin */
-    margin-bottom: 10px; /* Reduced margin */
+    width: 400px;
+    border-radius: 20%;
+    /* Rounded corners for circular image */
+    margin-top: 10px;
+    /* Reduced margin */
+    margin-bottom: 10px;
+    /* Reduced margin */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 /* dark mode button */
 .dark {
     background-color: #333;
     color: #fff;
 }
+
 #theme-toggle {
-    background-color: #6959b6;
-    color: #fff;
     padding: 10px 20px;
+    /* Adjust padding */
+    font-size: 16px;
+    /* Adjust font size */
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 20px;
+    background-color: #6959b6;
+    color: #000000;
+    margin-top: 25px;
+    /* Add margin to create space */
+    font-family: 'Times New Roman', sans-serif;
 }
 
 #theme-toggle:hover {
-    background-color: #daa551;
+    background-color: #ffffff;
 }

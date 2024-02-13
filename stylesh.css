@@ -4,6 +4,7 @@
 
 /* Responsive Design */
 @media screen and (max-width: 600px) {
+
     /* Add styles for smaller screens */
     h1 {
         font-size: 2em;
@@ -43,16 +44,24 @@ h1 {
 
 /* Image styles */
 .image-container {
-    display: flex; /* Use flexbox to make images side by side */
-    justify-content: center; /* Center images horizontally */
-    margin-bottom: 20px; /* Add some spacing below the images */
+    display: flex;
+    /* Use flexbox to make images side by side */
+    justify-content: center;
+    /* Center images horizontally */
+    margin-bottom: 20px;
+    /* Add some spacing below the images */
 }
+
 .image-container img {
-    max-width: 400px; /* Reduce the max-width of the images */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Adjusted border-radius */
+    max-width: 400px;
+    /* Reduce the max-width of the images */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 8px;
+    /* Adjusted border-radius */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 0 5px; /* Add some spacing between images */
+    margin: 0 5px;
+    /* Add some spacing between images */
 }
 
 /* Paragraph styles */
@@ -109,6 +118,7 @@ nav a:hover {
     position: relative;
     display: inline-block;
 }
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -122,14 +132,41 @@ nav a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .dropdown-content a {
     color: #333;
     padding: 10px;
     display: block;
     text-decoration: none;
 }
+
 /* dark mode */
 .dark {
     background-color: #333;
     color: #fff;
+}
+
+/* dark mode button */
+.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+#theme-toggle {
+    padding: 10px 20px;
+    /* Adjust padding */
+    font-size: 16px;
+    /* Adjust font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #6959b6;
+    color: #000000;
+    margin-top: 35px;
+    /* Add margin to create space */
+    font-family: 'Times New Roman', sans-serif;
+}
+
+#theme-toggle:hover {
+    background-color: #ffffff;
 }

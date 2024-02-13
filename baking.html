@@ -22,6 +22,13 @@
                         </div>
                     </li>
                 </ul>
+
+                <li><button id="theme-toggle">Dark Mode</button></li>
+                <script>
+           document.getElementById("theme-toggle").onclick = function(){
+               document.body.classList.toggle("dark");
+           };
+       </script>
             </nav>
         </header>
 
@@ -47,14 +54,5 @@
         <footer>
             <p>&copy; 2024 Davery Valdez.</p>
         </footer>
-
-        <button id="theme-toggle">Dark Mode</button>
-
-        <script>
-            document.getElementById("theme-toggle").onclick = function(){
-                document.body.classList.toggle("dark");
-            };
-        </script>
-
     </body>
 </html>
